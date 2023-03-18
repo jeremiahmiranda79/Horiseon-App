@@ -1,0 +1,7 @@
+/* A unique id that will also set a margin,
+ padding and hieght. */
+#search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+}
