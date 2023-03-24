@@ -1,13 +1,15 @@
-/* Sets global properties such as box-sizing, padding, and margin. */
+/* Sets universal properties such as box-sizing, padding, and margin. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
 /* Sets the background color for the whole body of the page. */
 body {
     background-color: #d9dcd6;
 }
+
 /* Sets the header with its main properties. */
 header {
     padding: 20px;
@@ -15,15 +17,18 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
+
 /* Sets the header <h1> properties. */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
+
 /* Creates an over-ride color for the letters seo. */
-.seo {
+.seo-color-overide {
     color: #d9dcd6;
 }
+
 /* Sets the properties for the navigation bar in the header. 
 Properties include padding, margins, fonts, and position. */
 header nav {
@@ -33,6 +38,7 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;  
 }
+
 /* Sets the <a> element, of a <nav> element, 
 of a <header> element to display inline block 
 with a margin of 25 px. */
@@ -40,18 +46,21 @@ header nav a {
     display: inline-block;
     margin-left: 25px;
 }
+
 /* Sets the <a> to have text color white. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
+
 /* Sets the <p> to have a font size of 16 px.*/
 p {
     font-size: 16px;
 }
+
 /* Sets a background picture with a height, width, 
 margins, image file path, size, and position. */
-.background-picture {
+#background-picture {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,35 +68,40 @@ margins, image file path, size, and position. */
     background-size: cover;
     background-position: center;
 }
+
 /* Floats object from the left. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
+
 /* Floats the object from the right. */
 .float-right {
     float: right;
     margin-left: 25px;
 }
+
 /* Sets the content of the section by width, display, 
-margings, fonts, background-color, and text color. */
-.content {
+margings, fonts, and text color. */
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
     color: #ffffff;
 }
+
 /* Sets the content image to a max height of 200 px. */
-.content img {
+main img {
     max-height: 200px;
 }
+
 /* Sets the <h2> of content with a margin of 20 px and a font size of 36 px. */
-.content h2 {
+main h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
 /* Sets a footer with a padding, fonts, and centered text. */
 footer {
     padding: 30px;
@@ -95,6 +109,7 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
 /* Sets the <h2> in the footer to a font size of 20 px. */
 footer h2 {
     font-size: 20px;

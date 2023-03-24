@@ -1,7 +1,10 @@
 /* A unique id that will also set a margin,
- padding and hieght. */
+ padding and height and background color. */
+#online-reputation-management, 
+#social-media-marketing, 
 #search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+    background-color: #0072bb;
 }
